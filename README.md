@@ -16,3 +16,9 @@ if len(sys.argv) > 1:
     url = sys.argv[1]
 else:
     sys.exit("Error: Please enter teh TED Talk URL")
+
+#Test URL = "https://www.ted.com/talks/sir_ken_robinson_do_schools_kill_creativity"
+
+r = requests.get(url)
+
+print("Download to start")
