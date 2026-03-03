@@ -35,4 +35,5 @@ result_mp4.split("")[0]
 
 print("downloading video from ....." + mp4_url)
 
+file_name = mp4_url.split("/")[len(mp4_url.split("/"))-1].split('?')[0]
 
