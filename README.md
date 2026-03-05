@@ -37,3 +37,4 @@ print("downloading video from ....." + mp4_url)
 
 file_name = mp4_url.split("/")[len(mp4_url.split("/"))-1].split('?')[0]
 
+print("sorting video in ....." + file_name)
